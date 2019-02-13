@@ -2,7 +2,7 @@ $('#quiz').quiz({
     //resultsScreen: '#results-screen',
     //counter: false,
     //homeButton: '#custom-home',
-    counterFormat: 'Question %current of %total',
+    counterFormat: 'Soalan ke %current daripada %total',
     questions: [
       {
         'q': 'Peraturan-peraturan (Lantikan-Lantikan dan Kenaikan-Kenaikan Pangkat) Pegawai-Pegawai Kerajaan 1961 di kuatkuasakan pada bila?',
@@ -13,8 +13,8 @@ $('#quiz').quiz({
           '10 Oktober 1962.'
         ],
         'correctIndex': 0,
-        'correctResponse': 'Correct.',
-        'incorrectResponse': 'Incorrect. <br /> Answer: 1 Januari 1962'
+        'correctResponse': 'Betul.',
+        'incorrectResponse': 'Salah. <br /> Jawapan: 1 Januari 1962'
       },
       {
         'q': 'Ada kah boleh di ambil bekerja semula pegawai-pegawai yang telah berhenti?',
@@ -23,8 +23,8 @@ $('#quiz').quiz({
           'Boleh.'
         ],
         'correctIndex': 0,
-        'correctResponse': 'Correct.',
-        'incorrectResponse': 'Incorrect. <br /> Answer: Tiada sesiapun yang telah berhenti dari perkhidmatan awam di Negara Brunei Darussalam boleh di ambil bekerja semula di dalam mana-mana jawatan dengan tidak mendapat kebenaran yang tepat dari Suruhanjaya.'
+        'correctResponse': 'Betul.',
+        'incorrectResponse': 'Salah. <br /> Jawapan: Tiada sesiapun yang telah berhenti dari perkhidmatan awam di Negara Brunei Darussalam boleh di ambil bekerja semula di dalam mana-mana jawatan dengan tidak mendapat kebenaran yang tepat dari Suruhanjaya.'
       },
       {
         'q': 'Cadangan-cadangan bagi lantikan-lantikan pemangku akan di selenggarakan mengikut perintah-perintah yang dikeluarkan oleh?',
@@ -35,8 +35,8 @@ $('#quiz').quiz({
           'Menteri Jabatan.'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Correct.',
-        'incorrectResponse': 'Incorrect. <br /> Suruhanjaya.'
+        'correctResponse': 'Betul.',
+        'incorrectResponse': 'Salah. <br /> Jawapan: Suruhanjaya.'
       },
       {
         'q': 'Jika tarikh peranakan yang sebenar tidak di ketahui, maka tarikh diperanakkan hendaklah dianggap sebagai?',
@@ -47,8 +47,8 @@ $('#quiz').quiz({
           '31 Disember tahun itu.'
         ],
         'correctIndex': 3,
-        'correctResponse': 'Correct.',
-        'incorrectResponse': 'Incorrect <br /> 31 Disember tahun itu.'
+        'correctResponse': 'Betul.',
+        'incorrectResponse': 'Salah <br /> Jawapan: 31 Disember tahun itu.'
       },
       {
         'q': 'Ada kah boleh di ambil bekerja semula pegawai-pegawai yang telah dibuang kerja?',
@@ -57,8 +57,8 @@ $('#quiz').quiz({
           'Boleh, tetapi hanya dalam keadaan-keadaan khas dan berkecualian sahaja.'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Correct',
-        'incorrectResponse': 'Incorrect <br /> Boleh, tetapi hanya dalam keadaan-keadaan khas dan berkecualian sahaja.'
+        'correctResponse': 'Betul',
+        'incorrectResponse': 'Salah <br /> Jawapn: Boleh, tetapi hanya dalam keadaan-keadaan khas dan berkecualian sahaja.'
       },
       {
         'q': 'Kaedah pengiklanan apakah yang dibukakan kepada orang ramai yang berkelayakan (termasuk pegawai-pegawai kerajaan)?',
@@ -69,8 +69,8 @@ $('#quiz').quiz({
           'Bab 7(b)'
         ],
         'correctIndex': 0,
-        'correctResponse': 'Correct.',
-        'incorrectResponse': 'Incorrect <br /> Bab 7(a).'
+        'correctResponse': 'Betul.',
+        'incorrectResponse': 'Salah <br /> Jawapan: Bab 7(a).'
       },
       {
         'q': 'Tiap-tiap pegawai apabila mula-mula dilantik ke satu jawatan, dikehendaki berkhidmat dalam percubaan selama berapa lama sebelum di tetapkan dalam jawatan?',
@@ -81,8 +81,8 @@ $('#quiz').quiz({
           '5 Tahun'
         ],
         'correctIndex': 2,
-        'correctResponse': 'Correct.',
-        'incorrectResponse': 'Incorrect <br /> Answer: 3 Tahun.'
+        'correctResponse': 'Betul.',
+        'incorrectResponse': 'Salah <br /> Jawapan: 3 Tahun.'
       },
       {
         'q': 'Berapa jam kah waktu kerja bagi seorang pegawai kerajaan yang sedang berkhidmat dalam perkhidmatan awam?',
@@ -93,8 +93,8 @@ $('#quiz').quiz({
           '8 1/2 Jam.'
         ],
         'correctIndex': 0,
-        'correctResponse': 'Correct.',
-        'incorrectResponse': 'Incorrect <br /> Answer: 7 1/2 Jam.'
+        'correctResponse': 'Betul.',
+        'incorrectResponse': 'Salah <br /> Jawapan: 7 1/2 Jam.'
       },
       {
         'q': 'Bila kah waktu pekerjaan bagi pegawai perkhidmatan awam?',
@@ -105,8 +105,8 @@ $('#quiz').quiz({
           'Dari jam 7.45 pagi hingga 12.15 tengahari dan 1.30 petang hingga 4.30 petang.'
         ],
         'correctIndex': 3,
-        'correctResponse': 'Correct.',
-        'incorrectResponse': 'Incorrect <br /> Answer: Dari jam 7.45 pagi hingga 12.15 tengahari dan 1.30 petang hingga 4.30 petang.'
+        'correctResponse': 'Betul.',
+        'incorrectResponse': 'Salah <br /> Jawapan: Dari jam 7.45 pagi hingga 12.15 tengahari dan 1.30 petang hingga 4.30 petang.'
       }
     ]
   });
